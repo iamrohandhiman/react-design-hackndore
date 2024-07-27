@@ -1,0 +1,189 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Optional: reset specific HTML5 elements */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 50, 250, 0.1);
+  background-color: rgb(12, 106, 238);
+  height: 65px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.map-container {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1000px;
+  z-index: -1;
+}
+
+.map-image {
+  width: 400px;
+}
+
+.title {
+  margin-top: 12vh;
+  margin-left: 18vh;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.highlight {
+  color: rgb(14, 117, 207);
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-left: 18vh;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.highlight-subtitle {
+  color: rgb(31, 203, 12);
+}
+
+.download-container {
+  width: 200px;
+  position: absolute;
+  top: 450px;
+  left: 120px;
+}
+
+.download-link {
+  font-size: 10px;
+  position: absolute;
+  text-decoration: underline;
+  top: 580px;
+  left: 137px;
+}
+
+.navbar-container {
+  z-index: 100;
+  margin-top: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 10px;
+}
+
+.NavBar {
+  border-radius: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 50, 250, 0.1);
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.spacer {
+  flex: 3;
+}
+
+.water-logo {
+  height: 50px;
+  margin-left: 25px;
+}
+
+.complaint {
+  margin-right: 18px;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.login {
+  margin-right: 2px;
+}
+
+.comet-logo {
+  width: 40px;
+  margin-right: 40px;
+}
+
+body {
+  background-color: white;
+  height: 200000px;
+}
+
+.sticky-container {
+  z-index: 10;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
